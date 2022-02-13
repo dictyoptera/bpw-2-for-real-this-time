@@ -3,8 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FirstPersonController
     - flash
-    Substance.Editor.dll:
-    - Substance.Editor.InspectorTexture
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -54,8 +52,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -100,120 +96,126 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1668}
-    - Class: 114
-      Script: {instanceID: 1670}
-    - Class: 114
-      Script: {instanceID: 1672}
-    - Class: 114
       Script: {instanceID: 1674}
+    - Class: 114
+      Script: {instanceID: 1676}
+    - Class: 114
+      Script: {instanceID: 1678}
     - Class: 114
       Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 1806}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 1916}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2996}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3128}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3176}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3284}
     - Class: 114
-      Script: {instanceID: 3644}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3730}
+      Script: {instanceID: 3650}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 3866}
+      Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 3962}
+      Script: {instanceID: 3900}
     - Class: 114
-      Script: {instanceID: 3984}
+      Script: {instanceID: 3968}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 4496}
+      Script: {instanceID: 4198}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4502}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4598}
     - Class: 114
-      Script: {instanceID: 4670}
+      Script: {instanceID: 4660}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 4910}
+      Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 4912}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 4948}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 4954}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 5152}
     - Class: 114
-      Script: {instanceID: 5358}
+      Script: {instanceID: 5258}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5364}
     - Class: 114
       Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5504}
+      Script: {instanceID: 5430}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5572}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5578}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 5742}
     - Class: 114
-      Script: {instanceID: 5888}
+      Script: {instanceID: 5858}
     - Class: 114
-      Script: {instanceID: 5944}
+      Script: {instanceID: 5894}
     - Class: 114
       Script: {instanceID: 5950}
     - Class: 114
-      Script: {instanceID: 5990}
+      Script: {instanceID: 5956}
     - Class: 114
-      Script: {instanceID: 6514}
+      Script: {instanceID: 5996}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 6774}
+      Script: {instanceID: 6656}
     - Class: 114
-      Script: {instanceID: 6898}
+      Script: {instanceID: 6780}
     - Class: 114
-      Script: {instanceID: 6978}
+      Script: {instanceID: 6904}
+    - Class: 114
+      Script: {instanceID: 6984}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,6 +229,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 205
       Script: {instanceID: 0}
@@ -1094,5 +1100,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/project/Scenes/SampleScene.unity
-  playerPath: C:/Users/timod/Desktop/school files/hku_1st year/blok 3/bpw 2/BPW 2
-    Timo Kolk_Data/BPW 2 Timo Kolk.exe
+  playerPath: C:/Users/timod/Desktop/school files/hku_1st year/blok 3/bpw 2/builds/2/BPW
+    2 Timo Kolk.exe
